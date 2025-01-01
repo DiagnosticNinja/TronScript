@@ -39,7 +39,7 @@ Tron is a glorified collection of batch files that automate the process of clean
 
 0. FIRST THINGS FIRST: **REBOOT THE COMPUTER BEFORE RUNNING TRON.** This is to allow any pending Windows or system updates to finish. To re-iterate: it is very important to reboot the computer before running Tron.
 
-1. [Download Tron] Download the self-extracting ErrorHandler `.exe` file, and run it as administrator. This will initialize the files and do a quick check of the overall system health. If your goal is to optimize/repair GPU functionality (Nvidia or AMD) and improve memory performance then stop here. The rest of the instructions pertain to virus removal and remediation.
+1. [Download Tron] Download the self-extracting Tron `.exe` file, and run it as administrator. This will initialize the files and do a quick check of the overall system health. If your goal is to optimize/repair GPU functionality (Nvidia or AMD) and improve memory performance then stop here. The rest of the instructions pertain to virus removal and remediation.
 
 2. Now, Copy both `tron.bat` and the `\resources` folder to the **Desktop** of the target machine. Tron can be run with Windows in either Safe Mode or Regular mode. Regular mode is generally recommended unless the system is severely infected.
 
